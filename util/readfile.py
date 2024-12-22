@@ -1,7 +1,9 @@
 import os
 import inspect
+from typing import TextIO
 
-def read_file(file: str):
+
+def read_file(file: str) -> TextIO:
     """
     Opens and returns the input.txt file from the directory of the calling script.
 
